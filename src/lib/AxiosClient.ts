@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const AxiosClient = axios.create({
-  baseURL: process.env.API_BASEURL,
+  baseURL: "https://wms-api-c3es.onrender.com/api",
   headers: {
     'Content-Type': 'application/json',
   },
