@@ -39,7 +39,6 @@ export default function Home() {
         >
           ログアウト
         </button>
-        {user.id === 'admin$12jugg' && <Link href="/$">管理者専用</Link>}
       </main>
     );
   } else {

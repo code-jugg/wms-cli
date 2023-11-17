@@ -21,6 +21,7 @@ const page = () => {
         JAN,
       });
       alert(response.data.message);
+      window.location.reload();
     } catch (err) {
       if (err instanceof AxiosError) {
         console.log(err.response?.data.message);
