@@ -41,6 +41,7 @@ const Calculator = ({ p, l }: { p: string; l: string }) => {
         QTY,
       });
       alert(response.data.message);
+      window.location.reload();
     } catch (err) {
       if (err instanceof AxiosError) {
         alert(err.response?.data.message);
