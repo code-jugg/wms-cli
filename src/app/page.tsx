@@ -32,6 +32,9 @@ export default function Home() {
         <Link href="/shipping" className="bg-slate-700 rounded py-6 my-2">
           出荷
         </Link>
+        <Link href="/edit" className="bg-slate-700 rounded py-6 my-2">
+          編集
+        </Link>
         <button
           type="button"
           onClick={handleLogout}
